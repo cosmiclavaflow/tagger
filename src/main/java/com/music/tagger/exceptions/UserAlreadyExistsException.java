@@ -1,6 +1,6 @@
 package com.music.tagger.exceptions;
 
-public class UserAlreadyExistsException extends RuntimeException {
+public class UserAlreadyExistsException extends Exception {
 
     public UserAlreadyExistsException() {
         super();

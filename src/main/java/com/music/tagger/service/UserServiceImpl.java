@@ -1,5 +1,6 @@
 package com.music.tagger.service;
 
+import com.music.tagger.exceptions.RoleNotFoundException;
 import com.music.tagger.exceptions.UserAlreadyExistsException;
 import com.music.tagger.persistence.entity.User;
 import com.music.tagger.persistence.repository.RoleRepository;
@@ -10,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import javax.management.relation.RoleNotFoundException;
 import java.util.Collections;
 
 @Service

@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
  * Thrown by various accessor methods to indicate that the element being requested
  * does not exist.
  */
-public class UserNotFoundException extends NoSuchElementException {
+public class UserNotFoundException extends Exception {
 
     /**
      * Constructs a {@code UserNotFoundException} with {@code null}

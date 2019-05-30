@@ -28,6 +28,7 @@ public class RootMvcConfig implements WebMvcConfigurer {
         registry.addViewController("/signout");
         registry.addViewController("/homepage");
         registry.addViewController("/successfulRegistration");
+        registry.addViewController("/findTrack");
     }
 
     @Override

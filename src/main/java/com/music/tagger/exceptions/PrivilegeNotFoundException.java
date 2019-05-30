@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
  * Thrown by various accessor methods to indicate that the element being requested
  * does not exist.
  */
-public class PrivilegeNotFoundException extends NoSuchElementException {
+public class PrivilegeNotFoundException extends Exception {
 
     /**
      * Constructs a {@code PrivilegeNotFoundException} with {@code null}
